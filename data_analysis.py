@@ -417,7 +417,7 @@ if __name__ == "__main__":
         print()  # Adds a blank line for better readability
     
     largest_gap = david_goliath(final_player)
-    print("Largest Gap (Highest and Lowest) Loss by Year:\n")
+    print("Largest Gap (Highest and Lowest) by Year:\n")
     for year, info in largest_gap.items():
         print(f"Year: {year}")
         print(f"  Week: {info['week']}")
